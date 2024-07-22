@@ -1,0 +1,21 @@
+my_flask_website/
+├── app/
+│   ├── __init__.py
+│   ├── routes.py
+│   ├── models.py
+│   ├── forms.py
+│   ├── templates/
+│   │   ├── base.html
+│   │   ├── home.html
+│   │   ├── about.html
+│   │   ├── services.html
+│   │   ├── service_detail.html
+│   │   ├── contact.html
+│   ├── static/
+│       ├── css/
+│       │   ├── styles.css
+│       ├── js/
+│       ├── images/
+├── config.py
+├── run.py
+├── requirements.txt

@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Our Services</h2>
+<ul>
+    <li><a href="{{ url_for('service_detail', service_name='international-business') }}">International Business & Student Advisory Services</a></li>
+    <li><a href="{{ url_for('service_detail', service_name='well-drilling') }}">Well Drilling and Resource Management</a></li>
+    <!-- Add other services as required -->
+</ul>
+{% endblock %}
